@@ -1,0 +1,318 @@
+@charset "utf-8";
+body
+{
+    background-color:#3E3A39;
+}
+
+#main
+{
+    margin:0 auto;
+    width:773px;
+}
+
+.main_box
+{
+    padding:10px;
+    background-color:#f0f0f0;
+    width:753px;
+    height:380px;
+}
+
+#header
+{
+    width:773px;
+    height:211px;
+    margin:40px 0 15px 0;
+    float:left;
+}
+#header_top
+{
+    height:54px;
+    width:534px;
+    text-align:right;
+    float:left;
+}
+#header_bottom
+{
+    float:left;
+    height:151px;
+    width:534px;
+    margin-top:6px;
+    text-align:right;
+}
+
+#footer
+{
+    margin-top:15px;
+    width:773px;
+    float:left;
+}
+
+#codelike_logo
+{
+    float:left;
+    padding-right:1px;
+    width:238px;
+    height:211px;
+}
+
+.codelile_buttons
+{
+    height:151px;
+    width:151px;
+    margin-left:20px;
+}
+
+a.codelile_buttons:hover img 
+{  
+    opacity:0.8;  
+    filter:alpha(opacity=80);  
+}
+
+.codelile_top_buttons
+{
+    height:54px;
+    width:151px;
+}
+
+a.codelile_top_buttons:hover img 
+{  
+    opacity:0.8;  
+    filter:alpha(opacity=80);  
+}
+
+#top_message
+{
+    margin:10px 0 10px 0;
+    width:680px;
+    height:70px;
+}
+
+#top_message_right
+{
+    margin-left:30px;
+    font-size:16px;
+    width:500px;
+    height:70px;
+    float:left;
+}
+
+#news_box
+{
+    width:550px;
+    margin:0 auto;
+    padding-top:10px;
+    height:200px;
+    overflow-y:auto;
+}
+
+.title
+{
+    width:753px;
+    height:30px;
+    font-size:20px;
+    font-weight:bold;
+}
+#profile_blog_text
+{
+    font-size:12px;
+    margin:10px 0px 0px 10px;
+}
+
+#blog_text
+{
+    font-size:12px;
+    margin:10px 0;
+}
+
+#profile_table
+{
+    width:545px;
+    font-size:14px;
+    margin-right:70px;
+    margin-top:10px;
+}
+
+#profile_table td
+{
+    border:2px dotted #999999;
+    height:25px;
+}
+
+#scroll_box
+{
+    border:2px solid #999999;
+    width:541px;
+    height:110px;
+    overflow-y:auto;
+    margin-top:30px;
+    font-size:12px;
+}
+
+#scloll_create_box
+{
+    border:2px solid #999999;
+    width:721px;
+    height:300px;
+    overflow-y:auto;
+    margin:15px auto;
+    font-size:14px;
+    padding:10px;
+}
+
+.create_item_box
+{
+    border-bottom:2px dotted #999999;
+    width:711px;
+    padding-bottom:15px;
+    padding-top:15px;
+}
+
+.small_string
+{
+    font-size:10px;
+    padding-left:10px;
+}
+
+#profile_left
+{
+    float:left;
+    height:270px;
+    width:250px;
+}
+
+#face_photo
+{
+    border:8px solid #999999;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+#profile_right
+{
+    float:left;
+    height:270px;
+    width:500px;
+}
+
+#profile_onry
+{
+    margin :0 auto;
+    width:555px;
+}
+
+#service_left
+{
+    margin-top:10px;
+    padding-left:30px;
+    width:120px;
+    height:270px;
+    float:left;
+}
+
+#service_right
+{
+    margin-top:10px;
+    width:550px;
+    height:270px;
+    font-size:15px;
+    float:left;
+    position:relative;
+}
+
+#service_top_title
+{
+    font-size:17px;
+    font-weight:bold;
+}
+
+#service_top_text
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#service_center_text
+{
+    position:absolute;
+    top:90px;
+    left:0px;
+}
+
+#service_bottom_text
+{
+    position:absolute;
+    top:210px;
+    left:0px;
+}
+
+#icon_center
+{
+    margin:20px 0 30px 0;
+}
+
+.service_other_title
+{
+    font-size:17px;
+    font-weight:bold;
+}
+
+#mail_top
+{
+    width:700px;
+    padding-left:30px;
+    float:left;
+    font-size:12px;
+    color:#999999;
+}
+
+#mail_left
+{
+    width:110px;
+    height:80px;
+    padding-left:30px;
+    float:left;
+}
+
+#mail_right
+{
+    width:430px;
+    height:60px;
+    padding-top:20px;
+    font-size:25px;
+    font-weight:bold;
+    float:left;
+}
+
+#sns_line
+{
+    width:170px;
+    margin-top:10px;
+    height:60px;
+    float:left;
+}
+
+#mail_right a
+{
+    color:#000;
+}
+
+#form_table
+{
+    width:680px;
+    padding:10px;
+    margin-left:30px;
+    font-size:13px;
+    border:1px solid #999999;
+}
+
+#form_table td
+{
+    padding:3px;
+    border:1px dotted #CCCCCC;
+}
+#form_table #message
+{
+    height:90px;
+}
